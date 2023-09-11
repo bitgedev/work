@@ -1,0 +1,19 @@
+0620~0707
+키오스크 재청구, 값 수정기능, pdf파일 병합저장, fax api 전송기능, 화면개선
+
+0711~0721
+kiosk front : convert pdf->images
+라이브러리문제랑 blob 자료처리랑 리액트문제 3중으로 어려웠던기억
+
+0717~0718
+main : 회원 만료일 30일추가기능
+
+0724~0728
+kiosk : parental
+
+0725~0726
+kiosk : new fax api(terminated)
+
+0731~0802
+kiosk : save accident detail
+저장 후 다음 페이지로 넘어갈 때 navigate에 포함시키기, db저장후 파일에 텍스트 출력하기, 목록에도 확인할 수 있게 만들기
