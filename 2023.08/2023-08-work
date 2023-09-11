@@ -1,0 +1,53 @@
+0731~0802
+kiosk : save accident detail
+저장 후 다음 페이지로 넘어갈 때 navigate에 포함시키기, db저장후 파일에 텍스트 출력하기, 목록에도 확인할 수 있게 만들기
+
+0803
+accident detail error modify
+
+0804~0807
+kiosk front : carousel(terminated)
+캐러셀 기능은 완성. 캐러셀에 넣을 사진과 회원분류 문제로 일시중지
+
+0808
+main front : 검색 전에 미리 top 순위 6개가 검색(로딩)되도록 하는 기능
+
+0808~0811
+main : 관리자에서 글을 저장하면 저장한 글을 pdf라이브러리를 통해 사진에 출력하고, 내 정보(session)도 함께 출력하는 기능.
++ 출력완료된 사진을 인쇄할 수 있는 기능
+
+0816~0817
+kiosk : check auto transfer
+신청 시 입력 disabled, 목록에서도 확인할 수 있게 만들기
+조건에 맞지않는 경우는 return
+
+0818~0821
+main : 작업후 알림톡버튼 클릭시, 알림톡발송 + 즉시 모달띄우기(내가 보내고싶은 자료를 선택하여 카톡으로 바로 전송할 수 있다)
+일주일동안 보지않기 쿠기설정
+이중모달을 만들어버렸다!
+
+0822
+android : 첫 설치시 흰화면만 뜨는 에러 해결!!!
+android 1도 몰랐지만 구글선생님덕에 디버깅하는법부터 찾아보면서 해결하다
+
+0823~0824
+android : pdf또는 사진을 선택하여 첨부할 수 있도록 dialog를 띄워서 선택첨부하는 기능
+
+0825
+android : error modify
+main : 스크립트 정리
+
+0828
+android : google play console upload
+main : 테이블 설계, 데이터 추출 with python
+
+0829~0830
+main : 테이블 설계, 데이터 추출 with python
+android : error modify
+안드로이드 버전으로 인한 에러들 수정
+더이상 사용하지 않는 권한을 요청했기 때문에 지속적인 종료가 발생하는 오류 수정(최신폰에서 일어나는 문제)
+더이상 사용하지 않는 권한을 사용하는 기존의 외부 라이브러리를 삭제하고 삼성 내장 기능으로 대체
+
+0831
+kiosk : auto transfer 업로드
+main : db 업로드
